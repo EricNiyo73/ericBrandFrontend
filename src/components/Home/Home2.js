@@ -24,7 +24,10 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> NodeJs,ReactJs Javascript and Python. </b>
+                <b className="purple">
+                  {" "}
+                  NodeJs,ReactJs Javascript and Python.{" "}
+                </b>
               </i>
               <br />
               <br />

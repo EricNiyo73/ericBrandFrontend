@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/mine.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -25,8 +25,8 @@ function Home() {
                 <strong className="main-name"> Eric NIYOKWIZERWA</strong>
               </h1>
               <p style={{ textAlign: "justify" }}>
-              Full stack Web developer and software engineer with experience of two years ,remotely and
-          on-site, In Rwanda
+                Full stack Web developer and software engineer with experience
+                of two years ,remotely and on-site, In Rwanda
               </p>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />

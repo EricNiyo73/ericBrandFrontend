@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import editor from "../../Assets/Projects/starwars.png";
 import chatify from "../../Assets/Projects/chatify.png";
 // import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/techtrend.png";
 
 function Projects() {
   return (
@@ -38,19 +38,16 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="AirBnb"
+              title="Tech Blog Post"
               description="The ALX- sums up the implementation of my 12 months of studies at the ALX-intranet - the fullstack
               software engineering program. </b>
-            The goal of the project is to deploy a replica of the Airbnb Website using my server. The final version of
+            The goal of the project is to create a space of where all users can create a post about tech community called EricTeCH. The final version of
             this project will have:</h4>
-
-          -A command interpreter to manipulate data without a visual interface, like a shell (for development and
-          debugging)
-          -A website (front-end) with static and dynamic functionalities.
-          -A comprehensive database to manage the backend functionalities.
+          -A website (front-end) with static and dynamic functionalities by using <b>ReactJs</b>.
+          -A comprehensive database to manage the backend functionalitiesby using <b>Nodejs</b>.
           -An API that provides a communication interface between the front and backend of the system."
-              ghLink="https://github.com/EricNiyo73/AirBnB_clone_v4"
-              demoLink="https://github.com/EricNiyo73/AirBnB_clone_v4"
+              ghLink="https://github.com/EricNiyo73/"
+              demoLink="https://alxbrand.vercel.app/"
             />
           </Col>
 
@@ -66,7 +63,7 @@ function Projects() {
               that integrate with the Star Wars universe and
               provide fans with a wealth of information and interactive experiences."
               ghLink="https://github.com/EricNiyo73/APIFetch"
-              demoLink="https://swapifetch.netlify.app/"              
+              demoLink="https://swapifetch.netlify.app/"
             />
           </Col>
 
@@ -100,8 +97,8 @@ function Projects() {
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection" */}
-              
-            {/* /> */}
+
+          {/* /> */}
           {/* </Col> */}
         </Row>
       </Container>

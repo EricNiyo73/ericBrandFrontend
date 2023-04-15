@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-// import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+import pdf from "../../Assets/../Assets/Eric-cv.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page} from "react-pdf";
+import { Document, Page } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
   "https://docs.google.com/document/d/1dbXczrBAGsg9sDNeadGMlSccysBQdUUi0jYNtT0LoWE/edit?usp=sharing";
@@ -25,12 +26,12 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            // href={pdf}
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Visit CV
+            &nbsp;Download CV
           </Button>
         </Row>
 
@@ -43,7 +44,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            // href={pdf}
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >

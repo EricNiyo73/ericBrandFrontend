@@ -39,8 +39,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Tech Blog Post"
-              description="The ALX- sums up the implementation of my 12 months of studies at the ALX-intranet - the fullstack
+              description="<b>The ALX- sums up the implementation of my 12 months of studies at the ALX-intranet - the fullstack
               software engineering program. </b>
+              <h4>
             The goal of the project is to create a space of where all users can create a post about tech community called EricTeCH. The final version of
             this project will have:</h4>
           -A website (front-end) with static and dynamic functionalities by using <b>ReactJs</b>.

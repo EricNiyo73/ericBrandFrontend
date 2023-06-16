@@ -47,7 +47,7 @@ function Projects() {
           -A website (front-end) with static and dynamic functionalities by using <b>ReactJs</b>.
           -A comprehensive database to manage the backend functionalitiesby using <b>Nodejs</b>.
           -An API that provides a communication interface between the front and backend of the system."
-              ghLink="https://github.com/EricNiyo73/"
+              ghLink="https://github.com/EricNiyo73/alxbrand.git"
               demoLink="https://alxbrand.vercel.app/"
             />
           </Col>

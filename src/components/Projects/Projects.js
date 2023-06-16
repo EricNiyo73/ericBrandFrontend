@@ -39,13 +39,13 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Tech Blog Post"
-              description="<b>The ALX- sums up the implementation of my 12 months of studies at the ALX-intranet - the fullstack
-              software engineering program. </b>
-              <h4>
+              description="The ALX- sums up the implementation of my 12 months of studies at the ALX-intranet - the fullstack
+              software engineering program. 
+              
             The goal of the project is to create a space of where all users can create a post about tech community called EricTeCH. The final version of
-            this project will have:</h4>
-          -A website (front-end) with static and dynamic functionalities by using <b>ReactJs</b>.
-          -A comprehensive database to manage the backend functionalitiesby using <b>Nodejs</b>.
+            this project will have:
+          -A website (front-end) with static and dynamic functionalities by using ReactJs.
+          -A comprehensive database to manage the backend functionalitiesby using Nodejs.
           -An API that provides a communication interface between the front and backend of the system."
               ghLink="https://github.com/EricNiyo73/alxbrand.git"
               demoLink="https://alxbrand.vercel.app/"
